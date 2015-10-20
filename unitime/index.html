@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+	<title>unitime.</title>
+	<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css' charset='utf-8'/>
+	<script type='text/javascript' src='js/interact.min.js'></script>
+	<script type='text/javascript' src='js/schedule.js'></script>
+	<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+</head>
+
+<body>
+<h1 class="today">+ Today</h1>
+<div class="new hide">
+	<h1>daily digest.</h1>
+	<div class="messages">2 emails &mdash; 4 letters</div><br/>
+	<div class="update">Prayer Suggestion: <a href="#">Refugee Crisis in the Middle East</a></div><br/>
+
+	<div class="categories">
+		<div class="category mind">mind</div>
+		<div class="category body">body</div>
+		<div class="category world">world</div>
+		<div class="category craft">craft</div>
+		<div class="category misc">misc</div>
+	</div>
+
+	<div class="suggestions">
+		<ul class="suggestion hide mind"><li>sudoku</li><li>puzzles</li><li>reading</li><li>writing</li></ul>
+		<ul class="suggestion hide body" style="margin-left: 6%;"><li>exercise</li><li>yoga</li><li>breathing</li><li>cooking</li></ul>
+		<ul class="suggestion hide world" style="margin-left: 18%;"><li>praying</li><li>pen pals</li><li>teaching</li><li>communication</li></ul>
+		<ul class="suggestion hide craft" style="margin-left: 34%;"><li>draw</li><li>weave</li><li>woodworking</li><li>calligraphy</li></ul>
+		<ul class="suggestion hide misc" style="margin-left: 50%;"><li>groceries</li><li>errands</li><li>family</li><li>sleep</li></ul>
+	</div>
+
+	<div class="resize-container" id="schedule">
+	  <div tabindex="1" class="resize-drag block-1 draggable body"><img class="stretch" src="stretch.png"/></div><div tabindex="2" class="resize-drag block-2 draggable mind"><img class="stretch" src="stretch.png"/></div>
+	</div>
+
+	<form class="reflection">
+		<textarea rows="10" cols="70" placeholder="How was today?" id="entry"></textarea>
+	</form>
+</div>
+
+<div class="row">
+	<div class="block mind" style="width:15%;">15%</div><div class="block craft" style="width:25%;">25%</div><div class="block body" style="width:5%;">5%</div><div class="block misc" style="width:40%;">40%</div><div class="block mind" style="width:15%;">15%</div>
+</div>
+<div class="row">
+	<div class="block body" style="width:5%;">5%</div><div class="block world" style="width:15%;">15%</div><div class="block mind" style="width:18%;">18%</div><div class="block craft" style="width:32%;">32%</div><div class="block mind" style="width:10%;">10%</div><div class="block body" style="width:8%;">8%</div><div class="block world" style="width:12%;">12%</div>
+</div>
+<div class="row">
+	<div class="block craft" style="width:8%;">8%</div><div class="block body" style="width:22%;">22%</div><div class="block world" style="width:13%;">13%</div><div class="block misc" style="width:17%;">17%</div><div class="block mind" style="width:5%;">5%</div><div class="block misc" style="width:5%;">5%</div><div class="block craft" style="width:25%;">25%</div><div class="block body" style="width:5%;">5%</div>
+</div>
+<div class="row">
+	<div class="block misc" style="width:25%;">25%</div><div class="block craft" style="width:5%;">5%</div><div class="block craft" style="width:10%;">10%</div><div class="block mind" style="width:30%;">30%</div><div class="block craft" style="width:15%;">15%</div><div class="block craft" style="width:7%;">7%</div><div class="block body" style="width:8%;">8%</div>
+</div>
+<div class="row">
+	<div class="block body" style="width:5%;">5%</div><div class="block world" style="width:13%;">13%</div><div class="block mind" style="width:18%;">18%</div><div class="block craft" style="width:32%;">32%</div><div class="block mind" style="width:17%;">17%</div><div class="block body" style="width:8%;">8%</div><div class="block misc" style="width:7%;">7%</div>
+</div>
+<div class="row">
+	<div class="block craft" style="width:8%;">8%</div><div class="block body" style="width:22%;">22%</div><div class="block world" style="width:13%;">13%</div><div class="block misc" style="width:17%;">17%</div><div class="block mind" style="width:5%;">5%</div><div class="block misc" style="width:5%;">5%</div><div class="block craft" style="width:25%;">25%</div><div class="block body" style="width:5%;">5%</div>
+</div>
+<div class="row">
+	<div class="block body" style="width:5%;">5%</div><div class="block world" style="width:13%;">13%</div><div class="block mind" style="width:18%;">18%</div><div class="block craft" style="width:22%;">22%</div><div class="block mind" style="width:17%;">17%</div><div class="block craft" style="width:8%;">8%</div><div class="block world" style="width:17%;">17%</div>
+</div>
+<div class="row">
+	<div class="block craft" style="width:8%;">8%</div><div class="block body" style="width:22%;">22%</div><div class="block world" style="width:13%;">13%</div><div class="block misc" style="width:17%;">17%</div><div class="block mind" style="width:5%;">5%</div><div class="block misc" style="width:5%;">5%</div><div class="block craft" style="width:25%;">25%</div><div class="block body" style="width:5%;">5%</div>
+</div>
+<div class="row">
+	<div class="block body" style="width:5%;">5%</div><div class="block craft" style="width:15%;">15%</div><div class="block mind" style="width:18%;">18%</div><div class="block misc" style="width:32%;">32%</div><div class="block mind" style="width:10%;">10%</div><div class="block body" style="width:8%;">8%</div><div class="block misc" style="width:12%;">12%</div>
+</div>
+<div class="row">
+	<div class="block clean" style="width:100%;"></div>
+</div>
+</body>
+</html>

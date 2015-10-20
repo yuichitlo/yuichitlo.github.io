@@ -1,0 +1,257 @@
+body {
+	font-family: 'Karla', sans-serif;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #808080;
+	overflow-y: scroll;
+}
+
+a {
+	color: #808080;
+}
+
+h1 {
+	margin: 16px 0px 16px 0px;
+}
+
+.today {
+	cursor: pointer;
+}
+
+.resize-drag {
+  background-color: #29e;
+  color: white;
+  /*font-size: 20px;*/
+  font-size: 0;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+
+  width: 120px;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.row {
+  transition: all .3s ease-in-out;
+  height: 30px;
+}
+
+.row-expanded {
+  transition: all .3s ease-in-out;
+  height: 50px;
+  color: white;
+}
+
+.row:nth-last-child(8) {
+	margin-bottom: 3px;
+}
+
+.block {
+  color: transparent;
+  font-size: 0.8em;
+  font-weight: 100;
+  text-align: right;
+
+  height: 100%;
+  padding-right: 8px;
+  padding-top: 30px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.clean {
+	background-color: white;
+}
+
+.block-1 {
+  width: 160px;
+}
+
+.resize-drag:focus {
+  height: 60px;
+}
+
+.resize-container:before {
+  position: absolute;
+  margin-top: 49px;
+  height: 2px;
+  background: #9E9E9E;
+  opacity: 0.3;
+  content: "";
+  width: 75%;
+  display: block;
+  z-index: -99;
+}
+
+.resize-container {
+  width: 100%;
+  display: block;
+}
+
+.stretch {
+	margin-top: 10px;
+	width: 100px;
+	z-index: 99;
+}
+
+.categories {
+	width: 75%;
+	margin-bottom: 10px;
+	/*margin: 0 auto;*/
+}
+
+.category {
+	width: 16%;
+	display: inline-block;
+	background-color: red;
+	border-radius: 35px;
+	text-align: center;
+	height: 34px;
+	padding-top: 9px;
+	color: #ffffff;
+	font-size: 0.8em;
+	margin-right: 3%;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.category:last-child {
+	margin-right: 0px;
+}
+
+.suggestion {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 0.8em;
+	display: inline;
+}
+
+.suggestion li {
+	padding: 5px 10px 5px 10px;
+	margin-right: 5px;
+	display: inline;
+}
+
+.mind, .body, .world, .craft, .misc {
+	transition: background-color .5s ease-in-out;
+}
+
+.category:hover {
+	transition: background-color .5s ease-in-out;
+	padding-top: 7px;
+	background-color: rgba(205, 241, 242, 0);
+	border: none;
+}
+
+.mind {
+	background-color: rgba(205, 241, 242, 1.0);
+	color: #95BEBE;
+}
+
+.category.mind:hover {
+	transition: background-color .5s ease-in-out;
+	border: 2px solid #cdf1f2;
+}
+
+.block.mind:hover {
+	color: #95BEBE;
+}
+
+.body {
+	background-color: #c5e6db;
+	color: #85AEA0;
+}
+
+.category.body:hover {
+	transition: background-color .5s ease-in-out;
+	border: 2px solid #c5e6db;
+}
+
+.block.body:hover {
+	color: #85AEA0;
+}
+
+.world {
+	background-color: #cbd8ad;
+	color: #8E9F6F;
+}
+
+.category.world:hover {
+	transition: background-color .5s ease-in-out;
+	border: 2px solid #cbd8ad;
+}
+
+.block.world:hover {
+	color: #8E9F6F;
+}
+
+.craft {
+	background-color: #edd1eb;
+	color: #B999B9;
+}
+
+.category.craft:hover {
+	transition: background-color .5s ease-in-out;
+	border: 2px solid #edd1eb;
+}
+
+.block.craft:hover {
+	color: #B999B9;
+}
+
+.misc {
+	background-color: #fee1c0;
+	color: #CBA682;
+}
+
+.category.misc:hover {
+	transition: background-color .5s ease-in-out;
+	border: 2px solid #fee1c0;
+}
+
+.block.misc:hover {
+	color: #CBA682;
+}
+
+.block.mind, .block.body, .block.world, .block.craft, .block.misc {
+	transition: all .5s ease-in-out;
+	color: transparent;
+}
+
+.block.mind:hover, .block.body:hover, .block.world:hover, .block.craft:hover, .block.misc:hover {
+	transition: all .5s ease-in-out;
+}
+
+.suggestion.mind, .suggestion.body, .suggestion.world, .suggestion.craft, .suggestion.misc {
+	background-color: transparent;
+}
+.new {
+	border-top: 3px solid #9E9E9E;
+	border-bottom: 3px solid #9E9E9E;
+	padding: 12px 30px 25px 30px;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	background-color: rgba(190, 190, 190, 0.1);
+}
+
+.hide {
+	display: none;
+}
+
+#entry {
+	border-radius: 8px;
+	border: 2px solid #BEBEBE;
+	color: #808080;
+	padding: 8px;
+	font-family: 'Karla', Arial, sans-serif;
+	font-size: 0.9em;
+	resize: none;
+	outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
