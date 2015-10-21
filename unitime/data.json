@@ -1,0 +1,11 @@
+{"days": [
+	{"date": "10/21/2015", "blocks": [["mind", 0.15], ["craft", 0.25], ["body", 0.05], ["misc", 0.40], ["mind", 0.15]], "weather": "Sunny", "high": "79", "low": "54", "sick": false},
+	{"date": "10/20/2015", "blocks": [["body", 0.05], ["world", 0.15], ["mind", 0.18], ["craft", 0.32], ["mind", 0.10], ["body", 0.08], ["world", 0.12]], "weather": "Cloudy", "high": "79", "low": "54", "sick": false},
+	{"date": "10/19/2015", "blocks": [["craft", 0.08], ["body", 0.22], ["world", 0.13], ["misc", 0.17], ["mind", 0.05], ["misc", 0.05], ["craft", 0.25], ["body", 0.05]], "weather": "Sunny", "high": "84", "low": "67", "sick": false},
+	{"date": "10/18/2015", "blocks": [["misc", 0.25], ["craft", 0.05], ["craft", 0.10], ["mind", 0.30], ["craft", 0.15], ["craft", 0.07], ["body", 0.08]], "weather": "Sunny", "high": "79", "low": "63", "sick": false},
+	{"date": "10/17/2015", "blocks": [["body", 0.05], ["world", 0.13], ["mind", 0.18], ["craft", 0.32], ["mind", 0.17], ["body", 0.08], ["misc", 0.07]], "weather": "Rain", "high": "68", "low": "54", "sick": true},
+	{"date": "10/16/2015", "blocks": [["craft", 0.08], ["body", 0.22], ["world", 0.13], ["misc", 0.17], ["mind", 0.05], ["misc", 0.05], ["craft", 0.25], ["body", 0.05]], "weather": "Sunny", "high": "79", "low": "54", "sick": true},
+	{"date": "10/15/2015", "blocks": [["body", 0.05], ["world", 0.13], ["mind", 0.18], ["craft", 0.22], ["mind", 0.17], ["craft", 0.08], ["world", 0.17]], "weather": "Rain", "high": "79", "low": "54", "sick": false},
+	{"date": "10/14/2015", "blocks": [["craft", 0.08], ["body", 0.22], ["world", 0.13], ["misc", 0.17], ["mind", 0.05], ["misc", 0.05], ["craft", 0.25], ["body", 0.05]], "weather": "Sunny", "high": "79", "low": "63", "sick": false},
+	{"date": "10/13/2015", "blocks": [["body", 0.05], ["craft", 0.15], ["mind", 0.18], ["misc", 0.32], ["mind", 0.10], ["body", 0.08], ["misc", 0.12]], "weather": "Cloudy", "high": "68", "low": "54", "sick": false}
+]}
