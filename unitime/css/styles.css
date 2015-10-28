@@ -14,10 +14,42 @@ a {
 
 h1 {
 	margin: 16px 0px 16px 0px;
+	display: inline-block;
 }
 
-.today {
+.today, .save, .close {
 	cursor: pointer;
+	opacity: 0.8;
+}
+
+.today:hover, .save:hover, .close:hover {
+	opacity: 1;
+}
+
+.save {
+	margin-right: 30px;
+}
+
+.set {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.set.week {
+	width: 49%;
+	margin-right: 3px;
+}
+
+.set.month {
+	width: 32%;
+	margin-right: 3px;
+}
+
+.set.year {
+	width: 19%;
+	margin-right: 3px;
 }
 
 .row {
@@ -37,10 +69,8 @@ h1 {
 	margin-bottom: 3px;
 }
 
-.row.week {
+.row.week, .row.month, .row.year {
   transition: all 0.8s ease-in-out;
-  width: 49%;
-  margin-right: 3px;
   margin-bottom: 3px;
 }
 
@@ -254,7 +284,6 @@ h1 {
 	border-top: 3px solid #9E9E9E;
 	border-bottom: 3px solid #9E9E9E;
 	padding: 12px 30px 25px 30px;
-	margin-top: 20px;
 	margin-bottom: 45px;
 	background-color: rgba(190, 190, 190, 0.1);
 }
@@ -281,15 +310,20 @@ h1 {
 	padding: 5px 30px 25px 30px;
 	background-color: rgba(190, 190, 190, 0.1);
 	width: 100%;
+	box-sizing: border-box;
+}
+
+.details.week {
 }
 
 .toolbar {
 	padding: 8px 30px 8px 30px;
 	margin-bottom: 45px;
 	bottom: 0;
-	background-color: rgba(190, 190, 190, 0.1);
+	background-color: rgba(255, 247, 237, 1);
 	position: fixed;
 	width: 80%;
+	box-sizing: border-box;
 }
 
 .toolbar-scaleopts {
@@ -323,4 +357,20 @@ h1 {
 	width: 25px;
 	height: 25px;
 	font-size: 1.1em;
+}
+
+.toolbar li {
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.toolbar li:hover {
+	transition: all .3s ease-in-out;
+	opacity: 1;
+}
+
+.graph {
+	display: inline-block;
+	vertical-align: top;
 }

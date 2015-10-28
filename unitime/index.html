@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<h1 class="today">+ Today</h1>
+<div class="header"><h1 class="today">+ Today</h1><h1 class="save hide">&mdash; Save</h1><h1 class="close hide">x Close</h1></div>
 <div class="new hide">
 	<h1>daily digest.</h1>
 	<div class="messages">2 emails &mdash; 4 letters</div><br/>
@@ -48,14 +48,17 @@
 	</div>
 </div>
 
-<div class="dashboard">
-<svg class="pie"></svg>
+<div class="dashboard" style="display: none;">
+	<h1>Overall Progress</h1><p/>
+	<div class="graph"><svg class="pie" height="500px"></svg></div>
+	<div class="graph"><svg class="line" height="500px"></svg></div>
 </div>
 
 <div class="toolbar">
-	<div class="toolbar-scaleopts small">&nbsp;</div>
+	<!-- <div class="toolbar-scaleopts small">&nbsp;</div>
 	<div class="toolbar-scaleopts medium">&nbsp;</div>
-	<div class="toolbar-scaleopts large">&nbsp;</div>
+	<div class="toolbar-scaleopts large">&nbsp;</div> -->
+	<ul class="suggestion"><li class="day">Day</li><li class="week">Week</li><li class="month">Month</li><li class="year">Year</li><li class="overall">Overall</li></ul>
 </div>
 </body>
 </html>
