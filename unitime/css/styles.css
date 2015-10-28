@@ -21,18 +21,27 @@ h1 {
 }
 
 .row {
-  transition: all .3s ease-in-out;
+  transition: all 0.8s ease-in-out;
   height: 30px;
+  display: inline-block;
+  width: 100%;
 }
 
 .row-expanded {
-  transition: all .3s ease-in-out;
+  transition: all 0.8s ease-in-out;
   height: 50px;
   color: white;
 }
 
 .row:nth-last-child(8) {
 	margin-bottom: 3px;
+}
+
+.row.week {
+  transition: all 0.8s ease-in-out;
+  width: 49%;
+  margin-right: 3px;
+  margin-bottom: 3px;
 }
 
 .block {
@@ -144,7 +153,7 @@ h1 {
 }
 
 .mind, .body, .world, .craft, .misc {
-	transition: background-color .5s ease-in-out;
+	/*transition: background-color .5s ease-in-out;*/
 }
 
 .category:hover {
@@ -155,6 +164,7 @@ h1 {
 }
 
 .mind {
+	fill: rgba(205, 241, 242, 1.0);
 	background-color: rgba(205, 241, 242, 1.0);
 	color: #95BEBE;
 }
@@ -169,6 +179,7 @@ h1 {
 }
 
 .body {
+	fill: #c5e6db;
 	background-color: #c5e6db;
 	color: #85AEA0;
 }
@@ -183,6 +194,7 @@ h1 {
 }
 
 .world {
+	fill: #cbd8ad;
 	background-color: #cbd8ad;
 	color: #8E9F6F;
 }
@@ -197,6 +209,7 @@ h1 {
 }
 
 .craft {
+	fill: #edd1eb;
 	background-color: #edd1eb;
 	color: #B999B9;
 }
@@ -211,6 +224,7 @@ h1 {
 }
 
 .misc {
+	fill: #fee1c0;
 	background-color: #fee1c0;
 	color: #CBA682;
 }
@@ -225,12 +239,12 @@ h1 {
 }
 
 .block.mind, .block.body, .block.world, .block.craft, .block.misc {
-	transition: all .5s ease-in-out;
+	/*transition: all .5s ease-in-out;*/
 	color: transparent;
 }
 
 .block.mind:hover, .block.body:hover, .block.world:hover, .block.craft:hover, .block.misc:hover {
-	transition: all .5s ease-in-out;
+	/*transition: all .5s ease-in-out;*/
 }
 
 .suggestion.mind, .suggestion.body, .suggestion.world, .suggestion.craft, .suggestion.misc {
@@ -266,4 +280,47 @@ h1 {
 .details {
 	padding: 5px 30px 25px 30px;
 	background-color: rgba(190, 190, 190, 0.1);
+	width: 100%;
+}
+
+.toolbar {
+	padding: 8px 30px 8px 30px;
+	margin-bottom: 45px;
+	bottom: 0;
+	background-color: rgba(190, 190, 190, 0.1);
+	position: fixed;
+	width: 80%;
+}
+
+.toolbar-scaleopts {
+	transition: all .3s ease-in-out;
+	background-color: #808080;
+	opacity: 0.5;
+	display: inline-block;
+	border-radius: 50px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.toolbar-scaleopts:hover {
+	transition: all .3s ease-in-out;
+	opacity: 0.8;
+}
+
+.small {
+	width: 12px;
+	height: 12px;
+	font-size: 0.3em;
+}
+
+.medium {
+	width: 20px;
+	height: 20px;
+	font-size: 0.9em;
+}
+
+.large {
+	width: 25px;
+	height: 25px;
+	font-size: 1.1em;
 }
