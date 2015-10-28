@@ -313,6 +313,9 @@ $(document).ready(function() {
 	    .attr('height', 150);
 
 	linegraph.append('g')            // create a <g> element
-	  .attr('class', 'x axis') // specify classes
-	  .call(xAxis); 
+	  .attr('class', 'axis')
+	  .attr("transform", "translate(50, 0)")
+	  .attr('fill', '#808080') // specify classes
+	  .call(xAxis);
+
 });
