@@ -75,6 +75,7 @@ h1 {
 }
 
 .block {
+  transition: color 2.5s ease-in-out;
   color: transparent;
   font-size: 0.8em;
   font-weight: 100;
@@ -373,4 +374,9 @@ h1 {
 .graph {
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 10px;
+}
+
+.line {
+	display: none;
 }
