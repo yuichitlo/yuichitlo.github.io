@@ -11,9 +11,10 @@ img {
   max-width: 90%; }
 
 body {
-  font-family: Raleway, sans-serif;
+  font-family: Karla, sans-serif;
   -webkit-font-smoothing: antialiased;
-  color: #2A363B; }
+  color: #2A363B; 
+  line-height: 1.2; }
 
 .nav {
   color: #0B2E59;
@@ -66,13 +67,15 @@ body {
     max-width: 60%; }
 
 .general a {
-  color: #E84A5F; }
+  color: #E84A5F; 
+  box-sizing: border-box;}
 .general a:hover {
   color: white;
   background-color: #E84A5F;
   padding: 5px; }
 .general .social:hover {
-  background-color: none; }
+  background-color: transparent; 
+  padding: 0px;}
 
 /* Opening */
 .opening {
@@ -92,7 +95,11 @@ body {
     color: #2A363B;
     font-weight: 700;
     font-size: 1em;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.15em;
+    text-transform: uppercase;}
+  .opening p {
+    margin: 0px auto;
+    width: 55%;}
   .opening .rule {
     width: 50%;
     margin: auto;
