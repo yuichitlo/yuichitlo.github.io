@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+	<title>unitime.</title>
+	<link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' type='text/css' href='css/styles.css' charset='utf-8'/>
+	<script type='text/javascript' src='js/interact.min.js'></script>
+	<script type='text/javascript' src='js/schedule.js'></script>
+	<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script type='text/javascript' src='js/scripts.js'></script>
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
+</head>
+
+<body>
+<div class="header"><h1 class="today">+ Today</h1><h1 class="save hide">&mdash; Save</h1><h1 class="close hide">x Close</h1></div>
+<div class="new hide">
+	<h1>daily digest.</h1>
+	<div class="messages">2 emails &mdash; 4 letters</div><br/>
+	<div class="update">Prayer Suggestion: <a href="#">Refugee Crisis in the Middle East</a></div><br/>
+
+	<div class="categories">
+		<div class="category mind" data-category="mind">mind <i class="info">&#119946;</i></div>
+		<div class="category body" data-category="body">body <i class="info">&#119946;</i></div>
+		<div class="category world" data-category="world">world <i class="info">&#119946;</i></div>
+		<div class="category craft" data-category="craft">craft <i class="info">&#119946;</i></div>
+		<div class="category misc" data-category="misc">misc <i class="info">&#119946;</i></div>
+	</div>
+
+	<div class="suggestions">
+		<ul class="suggestion hide mind"><li>sudoku</li><li>puzzles</li><li>reading</li><li>writing</li></ul>
+		<ul class="suggestion hide body" style="margin-left: 6%;"><li>exercise</li><li>yoga</li><li>breathing</li><li>cooking</li></ul>
+		<ul class="suggestion hide world" style="margin-left: 18%;"><li>praying</li><li>pen pals</li><li>teaching</li><li>communication</li></ul>
+		<ul class="suggestion hide craft" style="margin-left: 34%;"><li>draw</li><li>weave</li><li>woodworking</li><li>calligraphy</li></ul>
+		<ul class="suggestion hide misc" style="margin-left: 50%;"><li>groceries</li><li>errands</li><li>family</li><li>sleep</li></ul>
+	</div>
+
+	<div class="resize-container" id="schedule">
+	</div>
+
+	<form class="reflection">
+		<textarea rows="10" cols="70" placeholder="How was today?" id="entry"></textarea>
+	</form>
+</div>
+
+<div class="chart">
+	<div class="row">
+		<div class="block clean" style="width:100%;"></div>
+	</div>
+</div>
+
+<div class="dashboard" style="display: none;">
+	<h1>Overall Progress</h1><p/>
+	<div class="graph"><svg class="pie" height="500px"></svg></div>
+	<div class="graph"><svg class="line" height="500px"></svg></div>
+</div>
+
+<div class="toolbar">
+	<!-- <div class="toolbar-scaleopts small">&nbsp;</div>
+	<div class="toolbar-scaleopts medium">&nbsp;</div>
+	<div class="toolbar-scaleopts large">&nbsp;</div> -->
+	<ul class="suggestion"><li class="day">Day</li><li class="week">Week</li><li class="month">Month</li><li class="year">Year</li><li class="overall">Overall</li></ul>
+</div>
+</body>
+</html>

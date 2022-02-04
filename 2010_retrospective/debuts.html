@@ -1,0 +1,37 @@
+<button class="{{ menuOutClass }}" id="menu-icon" ng-click="toggleMenu()">
+	<img src="img/menu.svg"/>
+</button>
+
+<div ng-show="menuOut" id="menu">
+	<ul>
+		<a href="#/"><li>Introduction</li></a>
+		<a href="#/debuts"><li>Debuts</li></a>
+		<a href="#/topartists"><li>Top Artists</li></a>
+		<a href="#/streaks"><li>Streaks</li></a>
+	</ul>
+</div>
+
+<div class="back">
+	<a href="{{ pages[pageNumber - 1].url }}"><img src="img/left_arrow.svg"/></a>
+</div>
+
+<div class="next">
+	<a href="{{ pages[pageNumber + 1].url }}"><img src="img/right_arrow.svg"/></a>
+</div>
+
+<div class="center-blurb">
+	<h3>Debuting in the Crowd</h3>
+	Gaining traction as a new track on the Hot 100 amidst the listener-preferred or radio-supported tracks that are currently on the charts can often vary in difficulty for artists. Some songs debut straight onto the Hot 100 while others are jolted to the charts due to promotions, events, and other pop culture phenomena. Regardless, the ability for new songs to breakthrough to the Hot 100 is essential for diversity and so seeing the lack of debuts in recent years is a concerning finding.<p/>
+</div>
+
+<div class="graph">
+	<a href="img/debuts.png" target="_blank"><img src="img/debuts.png"/></a>
+</div>
+
+<div class="center-blurb">
+	<h4>Streaming + Videos + Other Forms of Music Consumption</h4>
+	During the mid 2000's, Billboard had to embrace the growing popularity of digital purchase of music in its algorithm. The rise in music consumption centered around streaming and less traditional means was finally adopted into the algorithm in February 2013. Initially, one may think that this allows more artists to break through without traditional radio support, however it seems that users are inclined to repeat their favorite songs more often when streaming and therefore the breadth of songs seen in the radio age of the Billboard charts has stagnated since.
+
+	<h4>Everybody Loves Holiday Music</h4>
+	December has consistent spikes in debuts in nearly every year of the decade. Holiday releases are a staple of the season and people love to get in the mood regardless of how they are consuming their music each year.
+</div>

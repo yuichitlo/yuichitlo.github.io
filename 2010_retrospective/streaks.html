@@ -1,0 +1,36 @@
+<button class="{{ menuOutClass }}" id="menu-icon" ng-click="toggleMenu()">
+	<img src="img/menu.svg"/>
+</button>
+
+<div ng-show="menuOut" id="menu">
+	<ul>
+		<a href="#/"><li>Introduction</li></a>
+		<a href="#/debuts"><li>Debuts</li></a>
+		<a href="#/topartists"><li>Top Artists</li></a>
+		<a href="#/streaks"><li>Streaks</li></a>
+	</ul>
+</div>
+
+<div class="back">
+	<a href="{{ pages[pageNumber - 1].url }}"><img src="img/left_arrow.svg"/></a>
+</div>
+
+<!-- <div class="next">
+	<a href="{{ pages[pageNumber + 1].url }}"><img src="img/right_arrow.svg"/></a>
+</div> -->
+
+<div class="center-blurb">
+	<h3>Pervasive Sounds</h3>
+	Appearing on the Hot 100 is already a major feat for most artists as it is a national chart of consumer habits, however the duration of a song's run on the chart is another goal that artists strive for. It is a indicator of how persistent and consistent listener support of a song is. The momentum of an artist who has a long-charting song can help other songs and projects they release remain in the conversation of popular music.<p/>
+</div>
+
+<div class="graph">
+	<a href="img/streaks.png" target="_blank"><img id="streaks" src="img/streaks.png" border="0" width="3275" height="3569" orgWidth="3275" orgHeight="3569" usemap="#streaks_map" alt="" /></a>
+	<div id="extra">&nbsp;</div>
+
+</div>
+
+<div class="center-blurb">
+	<h4>The Winner</h4>
+	Imagine Dragon's single, <em>Radioactive</em> has struck a cord in listeners. Not only has it set the 2010s record for the longest run atop the Hot 100, it has dethroned Jason Mraz's <em>I'm Yours</em> as the all-time record on the Billboard Hot 100 charts. The band's mainstream popularity and the unique sound can be attributed to its steady performance atop the charts, though it is interesting to note that in all 87 weeks of its run, it was never able to secure the number 1 spot and had to settle with a peak of 2.
+</div>
