@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typography on Tiffany Lo</title>
+    <link>http://tiffanylo.info/tags/typography/</link>
+    <description>Recent content in typography on Tiffany Lo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 02:58:18 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/tags/typography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archer</title>
+      <link>http://tiffanylo.info/projects/archer/</link>
+      <pubDate>Sat, 12 Feb 2022 02:58:18 +0000</pubDate>
+      
+      <guid>http://tiffanylo.info/projects/archer/</guid>
+      <description>A type specimen to feature Archer&amp;rsquo;s versatility as a modern, savvy, and approachable typeface.
+Slab serif fonts aren&amp;rsquo;t typically go-to options for designers, but this exploration of Archeras body text, title text, and decorative elements demonstrates all of its potential.</description>
+    </item>
+    
+  </channel>
+</rss>
