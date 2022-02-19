@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data visualization on Tiffany Lo</title>
+    <link>http://tiffanylo.info/tags/data-visualization/</link>
+    <description>Recent content in data visualization on Tiffany Lo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 02:05:53 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weather in Boston 09.2015</title>
+      <link>http://tiffanylo.info/projects/weather-book/</link>
+      <pubDate>Sat, 12 Feb 2022 01:27:17 +0000</pubDate>
+      
+      <guid>http://tiffanylo.info/projects/weather-book/</guid>
+      <description>Frustrated with the inconsistency of Boston&amp;rsquo;s weather as we transitioned from Summer to Fall, I visualized the entirety of September 2015&amp;rsquo;s highs and lows every day into a compact accordion book. The comparative timeline nature of the format allows for a better overview understanding of the phenomenon experienced day in and day out in Boston.
+The scale shifts from red to purple, beginning at 90+ degrees and moving down in 10-degree increments.</description>
+    </item>
+    
+    <item>
+      <title>I Never Make Time for People</title>
+      <link>http://tiffanylo.info/projects/social_infographic/</link>
+      <pubDate>Sat, 12 Feb 2022 02:05:53 +0000</pubDate>
+      
+      <guid>http://tiffanylo.info/projects/social_infographic/</guid>
+      <description>Since I am constantly in workaholic mode, I tend to prioritize relationships and time for friends as the last thing on my mind. I intend on changing this though, so I embarked on a month-long study of my socializing patterns.
+This infographic organizes the most interesting parts of my data and conclusions formed after the experiment. It seems I do make time for people after all!</description>
+    </item>
+    
+  </channel>
+</rss>

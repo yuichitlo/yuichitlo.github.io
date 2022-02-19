@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web design on Tiffany Lo</title>
+    <link>http://tiffanylo.info/tags/web-design/</link>
+    <description>Recent content in web design on Tiffany Lo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 03:10:32 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>True BU</title>
+      <link>http://tiffanylo.info/projects/true_bu/</link>
+      <pubDate>Sat, 12 Feb 2022 03:10:32 +0000</pubDate>
+      
+      <guid>http://tiffanylo.info/projects/true_bu/</guid>
+      <description>True BU is one of two slates running for Student Government office in the current elections. Together with graphic designer Calvin Chinand the campaign&amp;rsquo;s communications staff, we designed a website that portrays the simple and open approach this slate offers to the BU community. We decided to let the content and platform speak for themselves.</description>
+    </item>
+    
+  </channel>
+</rss>
