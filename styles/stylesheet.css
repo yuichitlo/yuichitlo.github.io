@@ -59,9 +59,9 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     /* Body type */
-    font-family: 'Courier Prime', monospace;
-    font-size: 18px;
-    line-height: 25px;
+    font-family: 'copernicus', serif;
+    font-size: 1em;
+    line-height: 1.5em;
     color: #786464;
     /* Nav sidebar */
     /* Links */ }
@@ -246,3 +246,26 @@ body {
     @media (max-width: 1250px) {
       body .body-wrapper .back-nav {
         display: none; } }
+@font-face {
+  font-family: "copernicus";
+  src: url("/fonts/GalaxieCopernicus-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "copernicus";
+  src: url("/fonts/GalaxieCopernicus-BookItalic.woff") format("woff");
+  font-weight: italic;
+  font-style: italic; }
+
+@font-face {
+  src: url("/fonts/WarblerText-Regular.woff2") format("woff2"), url("/fonts/WarblerText-Regular.woff") format("woff");
+  font-family: 'Warbler Text Web';
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  src: url("/fonts/WarblerText-Italic.woff2") format("woff2"), url("/fonts/WarblerText-Italic.woff") format("woff");
+  font-family: 'Warbler Text Web';
+  font-style: italic;
+  font-weight: 400; }
