@@ -6,7 +6,7 @@
     <description>Recent content on Tiffany Lo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Aug 2023 22:35:33 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 17:17:02 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meringue</title>
       <link>http://tiffanylo.info/projects/meringue/</link>
@@ -26,16 +26,6 @@
     </item>
     
     <item>
-      <title>Weather in Boston 09.2015</title>
-      <link>http://tiffanylo.info/projects/weather-book/</link>
-      <pubDate>Sat, 12 Feb 2022 01:27:17 +0000</pubDate>
-      
-      <guid>http://tiffanylo.info/projects/weather-book/</guid>
-      <description>Frustrated with the inconsistency of Boston&amp;rsquo;s weather as we transitioned from Summer to Fall, I visualized the entirety of September 2015&amp;rsquo;s highs and lows every day into a compact accordion book. The comparative timeline nature of the format allows for a better overview understanding of the phenomenon experienced day in and day out in Boston.
-The scale shifts from red to purple, beginning at 90+ degrees and moving down in 10-degree increments.</description>
-    </item>
-    
-    <item>
       <title>Celebrate the Mini Wins in Life</title>
       <link>http://tiffanylo.info/projects/celebrate/</link>
       <pubDate>Sat, 12 Feb 2022 01:22:57 +0000</pubDate>
@@ -51,7 +41,7 @@ The scale shifts from red to purple, beginning at 90+ degrees and moving down in
       
       <guid>http://tiffanylo.info/projects/begin-anywhere/</guid>
       <description>Begin Anywhere. A simple mantra that’s much harder to put into practice.
-I decided to open myself up to a new medium/approach — A ball of coral yarn and a large blank poster board to design on. The entire piece is interconnected, with no clear indication of where the thread begins.</description>
+Rather than approaching the poster design on Illustrator or with ink + paper, I decided to open myself up to a new medium/approach — A ball of coral yarn and a large blank poster board to design on.</description>
     </item>
     
     <item>
@@ -72,6 +62,15 @@ Slab serif fonts aren&amp;rsquo;t typically go-to options for designers, but thi
       <guid>http://tiffanylo.info/thoughts/2021_year_in_books/</guid>
       <description>Top 10
 The Secret Life of Groceries The Office of Historical Corrections Convenience Store Woman Lurking Goodbye, again Detransition, Baby The Anthropocene Reviewed The Joy of Being Selfish Steal like an Artist Cook Real Hawaii The Ocean at the End of the Lane The Secret Life of Groceries I took months to finish this book — Not because it was a slog, but because I enjoyed it too much and didn&amp;rsquo;t want to binge it all in one go!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://tiffanylo.info/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://tiffanylo.info/about/</guid>
+      <description>&amp;nbsp; Hiya! I’m Tif. Currently, I&#39;m seeking full-time or freelance opportunities in brand/editorial design, remote or based in Boston, MA. Graphic design, photography, pop culture, and food occupy the majority of my brain cells/hours. I&#39;ve recently received my certificate in Typeface Design from TypeParis and completed Type Electives&#39; Foundations in Display Type Design course. Previously, I worked as a fullstack Lead Software Developer at athenaHealth, helping healthcare professionals do their jobs with greater ease.</description>
     </item>
     
   </channel>
