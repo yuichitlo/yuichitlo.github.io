@@ -6,15 +6,15 @@
     <description>Recent content in data visualization on Tiffany Lo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Feb 2022 01:27:17 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 May 2024 02:46:53 +0000</lastBuildDate><atom:link href="http://tiffanylo.info/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Weather in Boston 09.2015</title>
-      <link>http://tiffanylo.info/projects/weather-book/</link>
-      <pubDate>Sat, 12 Feb 2022 01:27:17 +0000</pubDate>
+      <title>Music &#43; Us</title>
+      <link>http://tiffanylo.info/projects/music-&#43;-us/</link>
+      <pubDate>Fri, 17 May 2024 02:46:53 +0000</pubDate>
       
-      <guid>http://tiffanylo.info/projects/weather-book/</guid>
-      <description>Frustrated with the inconsistency of Boston&amp;rsquo;s weather as we transitioned from Summer to Fall, I visualized the entirety of September 2015&amp;rsquo;s highs and lows every day into a compact accordion book. The comparative timeline nature of the format allows for a better overview understanding of the phenomenon experienced day in and day out in Boston.
-The scale shifts from red to purple, beginning at 90+ degrees and moving down in 10-degree increments.</description>
+      <guid>http://tiffanylo.info/projects/music-&#43;-us/</guid>
+      <description>Music + Us explores how we can use the lens of music and self-quantification to make data feel human in a world where big data continues to grow and data feels increasingly abstract, impersonal, and even daunting to the average individual.
+The project aimed to inform audiences about data visualization history and literacy, followed by applying that understanding to music listening data collected through a survey, Billboard Hot 100 music data, and available music metadata.</description>
     </item>
     
   </channel>
