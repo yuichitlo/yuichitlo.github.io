@@ -4,7 +4,8 @@
     <title>Categories on Tiffany Lo</title>
     <link>https://tiffanylo.info/categories/</link>
     <description>Recent content in Categories on Tiffany Lo</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tiffanylo.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://tiffanylo.info/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

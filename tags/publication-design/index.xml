@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>publication design on Tiffany Lo</title>
+    <title>Publication Design on Tiffany Lo</title>
     <link>https://tiffanylo.info/tags/publication-design/</link>
-    <description>Recent content in publication design on Tiffany Lo</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Publication Design on Tiffany Lo</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jun 2024 02:40:59 +0000</lastBuildDate><atom:link href="https://tiffanylo.info/tags/publication-design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 02:40:59 +0000</lastBuildDate>
+    <atom:link href="https://tiffanylo.info/tags/publication-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Looks like Art, Tastes like Feet</title>
       <link>https://tiffanylo.info/projects/looks-like-art-tastes-like-feet/</link>
       <pubDate>Sat, 22 Jun 2024 02:40:59 +0000</pubDate>
-      
       <guid>https://tiffanylo.info/projects/looks-like-art-tastes-like-feet/</guid>
-      <description>The world of craft beer today is colorful, fun, and incredibly expressive. It&amp;rsquo;s also flavorful, but as someone who does not enjoy beer, the cans always appealed to me visually above anything else.
-Looks like Art, Tastes like Feet is a study on craft beer can artwork, memorializing the beer can collection of the unofficial Grand Somerville Beer Can Art Gallery. Three different typefaces tango together throughout the publication to capture craft beer culture&amp;rsquo;s quirkiness, craft, and casualness.</description>
+      <description>The world of craft beer today is colorful, fun, and incredibly expressive. It&amp;rsquo;s also flavorful, but as someone who does not enjoy beer, the cans always appealed to me visually above anything else.&#xA;Looks like Art, Tastes like Feet is a study on craft beer can artwork, memorializing the beer can collection of the unofficial Grand Somerville Beer Can Art Gallery. Three different typefaces tango together throughout the publication to capture craft beer culture&amp;rsquo;s quirkiness, craft, and casualness.</description>
     </item>
-    
     <item>
       <title>Music &#43; Us</title>
       <link>https://tiffanylo.info/projects/music-&#43;-us/</link>
       <pubDate>Fri, 17 May 2024 02:46:53 +0000</pubDate>
-      
       <guid>https://tiffanylo.info/projects/music-&#43;-us/</guid>
-      <description>Music + Us explores how we can use the lens of music and self-quantification to make data feel human in a world where big data continues to grow and data feels increasingly abstract, impersonal, and even daunting to the average individual.
-The project aimed to inform audiences about data visualization history and literacy, followed by applying that understanding to music listening data collected through a survey, Billboard Hot 100 music data, and available music metadata.</description>
+      <description>Music + Us explores how we can use the lens of music and self-quantification to make data feel human in a world where big data continues to grow and data feels increasingly abstract, impersonal, and even daunting to the average individual.&#xA;The project aimed to inform audiences about data visualization history and literacy, followed by applying that understanding to music listening data collected through a survey, Billboard Hot 100 music data, and available music metadata.</description>
     </item>
-    
   </channel>
 </rss>
