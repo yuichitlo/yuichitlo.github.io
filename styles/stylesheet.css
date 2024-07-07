@@ -415,6 +415,9 @@ body {
       letter-spacing: 5%; }
       body .body-wrapper .color-caption div:first-child {
         padding: 0.8em; }
+      @media (max-width: 880px) {
+        body .body-wrapper .color-caption {
+          font-size: 2.5em; } }
     body .body-wrapper .project-photos {
       overflow: scroll;
       height: 45vh;
@@ -441,7 +444,7 @@ body {
       body .body-wrapper .project-details .row {
         flex-wrap: wrap; }
       body .body-wrapper .project-details img {
-        min-width: 400px; }
+        min-width: 300px; }
       body .body-wrapper .project-details .col-3 {
         width: 100%;
         margin-bottom: 1.3em;
