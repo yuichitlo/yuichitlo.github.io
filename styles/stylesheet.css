@@ -438,6 +438,12 @@ body {
       @media (max-width: 1250px) {
         body .body-wrapper .project-photos {
           gap: 15px; } }
+    body .body-wrapper .mobile-screenshots {
+      background-color: #A67C67;
+      justify-content: space-around; }
+    body .body-wrapper .homepage-scroll {
+      height: 50vw;
+      overflow: hidden; }
     body .body-wrapper .project-details .col-3 > h1 {
       margin-bottom: 0px; }
     @media (max-width: 1250px) {
@@ -448,4 +454,10 @@ body {
       body .body-wrapper .project-details .col-3 {
         width: 100%;
         margin-bottom: 1.3em;
-        margin-left: 0px; } }
+        margin-left: 0px; }
+      body .body-wrapper .project-details .mobile-screenshots {
+        width: calc(100% + 16vw);
+        transform: translate(-8vw, 0);
+        transform-origin: center; }
+        body .body-wrapper .project-details .mobile-screenshots img {
+          min-width: unset; } }
