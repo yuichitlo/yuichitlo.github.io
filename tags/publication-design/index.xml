@@ -6,7 +6,7 @@
     <description>Recent content in Publication Design on Tiffany Lo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jun 2024 02:40:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 06:23:17 +0000</lastBuildDate>
     <atom:link href="https://tiffanylo.info/tags/publication-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Looks like Art, Tastes like Feet</title>
@@ -21,6 +21,13 @@
       <pubDate>Fri, 17 May 2024 02:46:53 +0000</pubDate>
       <guid>https://tiffanylo.info/projects/music-&#43;-us/</guid>
       <description>Background Music + Us explores how we can use the lens of music and self-quantification to make data feel human in a world where big data continues to grow and data feels increasingly abstract, impersonal, and even daunting to the average individual.&#xA;The project aimed to inform audiences about data visualization history and literacy, followed by applying that understanding to music listening data collected through a survey, Billboard Hot 100 music data, and available music metadata.</description>
+    </item>
+    <item>
+      <title>Immuta Market Research Reports</title>
+      <link>https://tiffanylo.info/projects/immuta/</link>
+      <pubDate>Mon, 02 Mar 2026 06:23:17 +0000</pubDate>
+      <guid>https://tiffanylo.info/projects/immuta/</guid>
+      <description>Immuta provides secure, scaleable, and advanced data provisioning services to manage complex data across a range of cloud-based data warehouses and lakes. As a B2B saas company that works with stakeholders in a fast-paced and increasingly complex space, Immuta publishes a concise and rich annual report to keep customers abreast on the data governance landscape. These findings are gathered from a survey of industry professionals and Immuta&amp;rsquo;s own research of current trends, best practices, and concerns.</description>
     </item>
   </channel>
 </rss>
