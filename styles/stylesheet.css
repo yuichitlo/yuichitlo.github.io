@@ -307,7 +307,8 @@ body {
       body .body-wrapper .links li:hover {
         background-color: #F9D6A1; }
     body .body-wrapper img {
-      align-self: start; }
+      align-self: start;
+      border-radius: 12px; }
     body .body-wrapper .gallery {
       list-style: none;
       padding-inline-start: 0px;
@@ -357,11 +358,15 @@ body {
           color: #B44040;
           background-color: #FFF8F8;
           border: 2px solid #B44040;
+          border-radius: 12px;
           position: absolute;
+          margin: auto;
           top: 0;
           bottom: 0;
+          left: 0;
           right: 0;
-          width: calc(100% - 62px);
+          width: calc(95% - 62px);
+          height: calc(95% - 62px);
           padding-top: 1.8em;
           padding-bottom: 1.8em;
           padding-left: 30px;
